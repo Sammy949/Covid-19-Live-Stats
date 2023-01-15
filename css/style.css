@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&family=Ubuntu:wght@400;500;700&display=swap');
+
+:root{
+	--blue: #0188DF;
+	--black: #354046;
+}
+
+*{
+  font-family: 'Poppins', sans-serif;
+  margin: 0; padding: 0;
+  box-sizing: border-box;
+  border: none;
+  outline: none !important;
+  text-decoration: none;
+  font-weight:400;
+  transition: all .2s linear;
+}
+
+
+/*-- Footer Section --*/
+
+.footer{
+	background: var(--black);
+	color: #fff
+}
+
+.footer .container{
+	padding: 50px 23px;
+	justify-content: center;
+	text-align: center;
+}
+
+.footer .container .row h1{
+	text-align: center;
+	font-size: 1rem;
+	color: #fff;
+}
+
+.footer p{
+	font-size: 1rem;
+	color: #eee;
+	padding: 1rem 0;
+}
+
+.footer .col-md-6:nth-child(2){
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+
+.footer .col-md-6:nth-child(2) a{
+	font-size: 1.3rem;
+}
+
+.footer .col-md-6:nth-child(1) a{
+	font-size: 2rem;
+	color: #fff;
+	text-align: left;
+}
+
+.footer .col-md-6:nth-child(1) p{
+	text-align: left;
+}
+
+.footer .col-md-6:nth-child(1) a:hover{
+	color: var(--blue)
+}
+
+.footer .col-md-6:nth-child(1) a span{
+	color:var(--blue);
+}
+
+.footer a{
+	font-size: 1rem;
+	color: #ccc;
+	display: block;
+}
+
+.footer a:hover{
+	color: var(--blue);
+}
+
+.footer .credit{
+	color: #fff;
+	width: 80%;
+	padding: 2rem 0;
+	border-top: .1rem solid #ccc !important;  
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+
+.footer .credit a{
+	color: white;
+	font-size: 1.3rem;
+}
+
+.footer .credit a:hover{
+	color: var(--blue);
+}
